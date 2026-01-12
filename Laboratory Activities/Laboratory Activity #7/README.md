@@ -16,7 +16,7 @@ Unlike simple "fire-and-forget" controllers, this system features **State Awaren
 * **Hardware:** Arduino Microcontroller, 3 LEDs, 3 Push Buttons.
 * **Backend:** Python 3, FastAPI.
 * **Communication:** UART Serial (9600 Baud), PySerial Library.
-* **LabAct7.ino:** C++ (Arduino).
+* **Firmware:** C++ (Arduino).
 
 ## How to Run
 
