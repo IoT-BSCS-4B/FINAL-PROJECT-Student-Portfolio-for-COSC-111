@@ -16,7 +16,7 @@ Unlike simple "fire-and-forget" controllers, this system features **State Awaren
 * **Hardware:** Arduino Microcontroller, 3 LEDs, 3 Push Buttons.
 * **Backend:** Python 3, FastAPI.
 * **Communication:** UART Serial (9600 Baud), PySerial Library.
-* **Firmware:** C++ (Arduino).
+* **LabAct7.ino:** C++ (Arduino).
 
 ## How to Run
 
@@ -25,7 +25,7 @@ Unlike simple "fire-and-forget" controllers, this system features **State Awaren
 * **Buttons:** Connect Buttons to Pins 12, 11, and 10 (Ground the other side; internal pull-ups are used).
 
 ### 2. Arduino Setup
-* Open the Arduino code (`firmware.ino`).
+* Open the Arduino code (`LabAct7.ino`).
 * Upload the sketch to your board.
 * **Close the Arduino IDE Serial Monitor** (The Python script cannot connect if the IDE is using the port).
 
