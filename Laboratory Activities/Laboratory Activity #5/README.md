@@ -7,8 +7,8 @@ This project establishes a hardware-software interface allowing a user to contro
 
 | File Name | Activity / Description |
 | :--- | :--- |
-| **Lab_LED_Project.py** | **Python Serial Controller:** Acts as the primary user interface. It establishes a serial connection (default `COM5`) and presents a recurring menu allowing the user to select commands (e.g., Toggle Red, All ON). It encodes these choices into single characters and transmits them to the microcontroller. |
-| **Lab_LED_Project.ino** | **Main Firmware Logic:** This is the entry point for the Arduino application. It initializes the serial baud rate (9600) and continuously monitors the serial buffer. Upon receiving data, it executes a switch-case logic to map specific characters ('R', 'G', 'B', etc.) to the corresponding hardware functions. |
+| **Laboratory Activity #5.py** | **Python Serial Controller:** Acts as the primary user interface. It establishes a serial connection (default `COM5`) and presents a recurring menu allowing the user to select commands (e.g., Toggle Red, All ON). It encodes these choices into single characters and transmits them to the microcontroller. |
+| **Laboratory Activity #5.ino** | **Main Firmware Logic:** This is the entry point for the Arduino application. It initializes the serial baud rate (9600) and continuously monitors the serial buffer. Upon receiving data, it executes a switch-case logic to map specific characters ('R', 'G', 'B', etc.) to the corresponding hardware functions. |
 | **led_functions.h** | **Hardware Abstraction Header:** Contains the hardware definitions and logic. It defines the specific digital pins (Red=8, Green=9, Blue=10) and implements modular functions for setting up pins, toggling individual LED states, and performing bulk actions (turning all LEDs ON or OFF). |
 
 ## Tech Stack
