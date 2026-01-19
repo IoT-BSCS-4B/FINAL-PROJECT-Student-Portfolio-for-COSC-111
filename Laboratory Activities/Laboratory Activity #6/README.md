@@ -10,8 +10,8 @@ Instead of the buttons directly turning on the LEDs (local control), the signal 
 
 | File Name | Activity / Description |
 | :--- | :--- |
-| **Arduino_Serial_IO.ino** | **Hardware Logic:** <br>1. **Outbound (TX):** Monitors three buttons (Red, Green, Blue) using "Edge Detection" (detecting the exact moment a button goes from unpressed to pressed). When a press is detected, it sends a character (`'R'`, `'G'`, or `'B'`) to the computer.<br>2. **Inbound (RX):** Listens for characters from the computer (`'1'`, `'2'`, `'3'`). Upon receiving them, it toggles the state (ON/OFF) of the corresponding LED. |
-| **Python_Bridge.py** | **Software Logic / Echo Server:** <br>1. Establishes a serial connection to the Arduino.<br>2. Continuously listens for incoming characters.<br>3. Maps the inputs to outputs: If it hears `'R'`, it writes back `'1'`; if `'G'`, it writes `'2'`; if `'B'`, it writes `'3'`. This completes the control loop. |
+| **Laboratory Activity #6.ino** | **Hardware Logic:** <br>1. **Outbound (TX):** Monitors three buttons (Red, Green, Blue) using "Edge Detection" (detecting the exact moment a button goes from unpressed to pressed). When a press is detected, it sends a character (`'R'`, `'G'`, or `'B'`) to the computer.<br>2. **Inbound (RX):** Listens for characters from the computer (`'1'`, `'2'`, `'3'`). Upon receiving them, it toggles the state (ON/OFF) of the corresponding LED. |
+| **Laboratory Activity #6.py** | **Software Logic / Echo Server:** <br>1. Establishes a serial connection to the Arduino.<br>2. Continuously listens for incoming characters.<br>3. Maps the inputs to outputs: If it hears `'R'`, it writes back `'1'`; if `'G'`, it writes `'2'`; if `'B'`, it writes `'3'`. This completes the control loop. |
 
 ## Tech Stack
 * **Hardware:** Arduino, 3 LEDs (Red, Green, Blue), 3 Push Buttons.
