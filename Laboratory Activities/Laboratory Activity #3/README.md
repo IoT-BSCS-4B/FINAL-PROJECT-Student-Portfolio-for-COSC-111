@@ -11,7 +11,7 @@ The system features a conditional alert logic: it triggers a rapid alarm signal 
 
 | File Name | Activity / Description |
 | :--- | :--- |
-| **Env_Monitor.ino** | **Sensor Fusion & Logic:** <br>1. **Data Acquisition:** Reads raw analog signals from A0 (Thermistor) and A2 (Photoresistor).<br>2. **Signal Processing:** Converts thermistor voltage to temperature using the Steinhart-Hart equation and maps photoresistor values to a scaled 0-300 range.<br>3. **Alert System:** Checks if both temperature and light thresholds are exceeded. If yes, it strobes Pin 12 (100ms interval); otherwise, it remains idle with a 500ms refresh rate. |
+| **Laboratory Activity #3.ino** | **Sensor Fusion & Logic:** <br>1. **Data Acquisition:** Reads raw analog signals from A0 (Thermistor) and A2 (Photoresistor).<br>2. **Signal Processing:** Converts thermistor voltage to temperature using the Steinhart-Hart equation and maps photoresistor values to a scaled 0-300 range.<br>3. **Alert System:** Checks if both temperature and light thresholds are exceeded. If yes, it strobes Pin 12 (100ms interval); otherwise, it remains idle with a 500ms refresh rate. |
 
 ## Tech Stack
 * **Hardware:** Arduino, NTC Thermistor (10kΩ), Photoresistor (LDR), 10kΩ Fixed Resistors (for voltage dividers), Output Device (LED or Buzzer).
