@@ -7,7 +7,7 @@ This Arduino project implements a sequential lighting control system using digit
 
 | File Name | Activity / Description |
 | :--- | :--- |
-| **Sequential_LEDs.ino** | **Logic Controller:** This script maintains two state variables (`bulb_on` and `bulb_off`) to track the active pin index. It utilizes a `loop()` with conditional logic to separate the operation into two phases: <br>1. **Ignition Phase:** Sequentially powers Digital Pins 12 through 8 HIGH with a 1-second delay between each. <br>2. **Extinguish Phase:** Once all are lit, sequentially powers Digital Pins 12 through 8 LOW with a 1-second delay between each. <br>3. **Reset:** Reinitializes the index variables to restart the cycle. |
+| **LaboratoryActivityAct1.ino** | **Logic Controller:** This script maintains two state variables (`bulb_on` and `bulb_off`) to track the active pin index. It utilizes a `loop()` with conditional logic to separate the operation into two phases: <br>1. **Ignition Phase:** Sequentially powers Digital Pins 12 through 8 HIGH with a 1-second delay between each. <br>2. **Extinguish Phase:** Once all are lit, sequentially powers Digital Pins 12 through 8 LOW with a 1-second delay between each. <br>3. **Reset:** Reinitializes the index variables to restart the cycle. |
 
 ## Tech Stack
 * **Hardware:** Arduino Microcontroller, 5 LEDs, Resistors
