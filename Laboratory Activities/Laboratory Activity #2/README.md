@@ -7,7 +7,7 @@ This Arduino project demonstrates the use of arrays and Pulse Width Modulation (
 
 | File Name | Activity / Description |
 | :--- | :--- |
-| **PWM_LED_Sequence.ino** | **Array-Based Control Logic:** This script uses two parallel arrays: `pins` (to store hardware locations) and `brightness` (to store intensity values). <br><br>**Key Activities:**<br>1. **Setup:** Uses a `while` loop to iterate through the `pins` array and configure them as `OUTPUT`.<br>2. **Activation Sequence:** Iterates through the arrays, using `analogWrite` to apply the specific brightness value to each LED with a 1-second delay.<br>3. **Deactivation Sequence:** Iterates through the arrays again to turn the LEDs off (`LOW`) one by one with a 1-second delay. |
+| **Laboratory Activity #2.ino** | **Array-Based Control Logic:** This script uses two parallel arrays: `pins` (to store hardware locations) and `brightness` (to store intensity values). <br><br>**Key Activities:**<br>1. **Setup:** Uses a `while` loop to iterate through the `pins` array and configure them as `OUTPUT`.<br>2. **Activation Sequence:** Iterates through the arrays, using `analogWrite` to apply the specific brightness value to each LED with a 1-second delay.<br>3. **Deactivation Sequence:** Iterates through the arrays again to turn the LEDs off (`LOW`) one by one with a 1-second delay. |
 
 ## Tech Stack
 * **Hardware:** Arduino Microcontroller, 5 LEDs.
