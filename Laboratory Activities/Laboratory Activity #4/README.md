@@ -7,7 +7,7 @@ This Arduino project implements a light-activated security or notification syste
 
 | File Name | Activity / Description |
 | :--- | :--- |
-| **Light_Latch_Alarm.ino** | **Sensor Monitoring & Serial Control:** <br>1. **Monitoring:** Continuously reads an analog photoresistor (Pin A2) and maps the value to a 0-300 scale.<br>2. **Triggering:** If brightness exceeds the threshold (220), a boolean flag (`isBlinking`) is set to `true`.<br>3. **Feedback:** Continuously logs current brightness and system status (Idle/Blinking) to the Serial console.<br>4. **Manual Reset:**listens for the text command "stop" via the Serial interface to reset the system and turn off the alarm.<br>5. **Actuation:** Executes a non-blocking 100ms strobe effect on the LED when the alarm flag is active. |
+| **Laboratory Activity #4.ino** | **Sensor Monitoring & Serial Control:** <br>1. **Monitoring:** Continuously reads an analog photoresistor (Pin A2) and maps the value to a 0-300 scale.<br>2. **Triggering:** If brightness exceeds the threshold (220), a boolean flag (`isBlinking`) is set to `true`.<br>3. **Feedback:** Continuously logs current brightness and system status (Idle/Blinking) to the Serial console.<br>4. **Manual Reset:**listens for the text command "stop" via the Serial interface to reset the system and turn off the alarm.<br>5. **Actuation:** Executes a non-blocking 100ms strobe effect on the LED when the alarm flag is active. |
 
 ## Tech Stack
 * **Hardware:** Arduino Microcontroller, Photoresistor (LDR), LED.
