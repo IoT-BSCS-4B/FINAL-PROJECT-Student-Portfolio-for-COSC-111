@@ -11,7 +11,7 @@ The core feature of this system is its **Hybrid Control Architecture**, which al
 
 | File Name | Description & Technical Implementation |
 | :--- | :--- |
-| **Smart_Light_System.ino** | **Main Firmware & Logic Controller**<br>The code is structured into three non-blocking modules:<br><br>1. **Command Parser (`checkSerialInput`):** Implements a String buffer to read UART data character-by-character. It parses specific keywords (`MODE`, `SET`) to change system state variables.<br>2. **Logic Engine (`runSystemLogic`):** Reads the Photoresistor (ADC), maps the value to a percentage (0-100%), and compares it against the active thresholds (either Manual or Auto) to update the LED traffic light.<br>3. **Status Reporter (`printStatusReport`):** Uses `millis()` for non-blocking timing to print a telemetry report every 1 second, ensuring the system remains responsive to user input at all times. |
+| **MidtermLab.ino** | **Main Firmware & Logic Controller**<br>The code is structured into three non-blocking modules:<br><br>1. **Command Parser (`checkSerialInput`):** Implements a String buffer to read UART data character-by-character. It parses specific keywords (`MODE`, `SET`) to change system state variables.<br>2. **Logic Engine (`runSystemLogic`):** Reads the Photoresistor (ADC), maps the value to a percentage (0-100%), and compares it against the active thresholds (either Manual or Auto) to update the LED traffic light.<br>3. **Status Reporter (`printStatusReport`):** Uses `millis()` for non-blocking timing to print a telemetry report every 1 second, ensuring the system remains responsive to user input at all times. |
 
 ## Tech Stack
 * **Microcontroller:** Arduino Uno / Nano (ATmega328P)
